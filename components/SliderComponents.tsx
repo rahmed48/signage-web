@@ -43,7 +43,7 @@ const SliderComponents = () => {
   return (
     <ReactPlayer
       url={`https://www.youtube.com/embed/${videoPlayer}?autoplay=1&controls=0`}
-      controls={false}
+      controls={true}
       width={"100%"}
       height={"100%"}
       playing={true}
